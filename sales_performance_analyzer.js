@@ -11,12 +11,11 @@ if (AverageSales>10000){
 
 } else if (AverageSales>=7000) {
     return "Good";
-    else if (AverageSales>=4000) {
+} else if (AverageSales>=4000) {
         return "Satisfactory";
     } else {
         return "Needs Improvement";
     }
-}
 }
 
 
