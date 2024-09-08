@@ -6,12 +6,17 @@ let average = calculateAverageSales (SalesFigures);
 console.log ('The average sales are', average);
 
 function determinePerformanceRating (AverageSales) {
-    if (AverageSales>10000)
-        return "Excellent";
-    elseif (AverageSales>= 7000)
+if (AverageSales>10000){
+    return "Excellent";
+
+} else if (AverageSales>=7000) {
     return "Good";
-elseif (AverageSales>=4000)
-return "Satisfactory";
-elseif (AverageSales<4000)
-return "Needs Improvement";
+    else if (AverageSales>=4000) {
+        return "Satisfactory";
+    } else {
+        return "Needs Improvement";
+    }
 }
+}
+
+
