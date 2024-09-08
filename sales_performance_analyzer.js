@@ -17,5 +17,7 @@ if (AverageSales>10000){
         return "Needs Improvement";
     }
 }
+let AverageSales = 6000;
+let perfating= determinePerformanceRating (AverageSales);
 
 
