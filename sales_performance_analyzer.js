@@ -5,17 +5,20 @@ let SalesFigures= [4590,18400,2130,8800]
 let average = calculateAverageSales (SalesFigures);
 console.log ('The average sales are', average);
 
-function determinePerformanceRating (AverageSales) {
-if (AverageSales>10000){
+function determinePerformanceRating (averageSales) {
+if (averageSales>10000){
     return "Excellent";
 
-} else if (AverageSales>=7000) {
+} else if (averageSales>=7000) {
     return "Good";
-} else if (AverageSales>=4000) {
+} else if (averageSales>=4000) {
         return "Satisfactory";
     } else {
         return "Needs Improvement";
     }
-
-let perfating= determinePerformanceRating (AverageSales);
 }
+let perfating= determinePerformanceRating (AverageSales);
+
+function findTopAndBottomPerformers (SalesTeam){
+}
+return SalesTeam.reduce 
